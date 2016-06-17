@@ -14,7 +14,7 @@ jQuery(document)
 
 /************************ PHASE 2 ****************************************************************/
 
-    //header menu---
+    //header menu----
     .off('tracking', 'ul.nav.navbar-nav.nav-tabs.navbar-menu, #sidebar.sidebar-offcanvas')
 	.on('tracking', 'ul.nav.navbar-nav.nav-tabs.navbar-menu, #sidebar.sidebar-offcanvas', function(event, data) {
 		if (!data.ck || !data.ck[1]) {
